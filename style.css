@@ -1,0 +1,42 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   align-items: center;
+   min-height: 100vh;
+  }
+.text{
+  text-align: center;
+  text-decoration: none;
+ border-right: 10px lightcyan;
+  
+}
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+  }
+
+  .box {
+      width: 15%;
+      margin: 1%;
+      border: 2px solid #ccc;
+      padding: 10px;
+      text-align: center; 
+      box-shadow: 2px 2px 4px #646464, -2px -2px 4px #888; 
+      justify-content: center;
+      position: relative;
+    
+  }
+
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .box .caption {
+    margin-top: 10px;
+   
+  }
